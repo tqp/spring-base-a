@@ -1,0 +1,9 @@
+# APPLICATION INFORMATION
+application.displayName: "Application A"
+
+# LOGGING
+# ALL > TRACE > DEBUG > INFO > WARN > ERROR > FATAL > OFF
+logging.pattern.console: "## %d{yyyy-MM-dd HH:mm:ss} %-5level %M [%logger{36}:%line] - %msg%n"
+logging.level.root: WARN
+# Package-Specific
+logging.level.com.mystique: DEBUG
